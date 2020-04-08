@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class GitStudyApplication {
     @RequestMapping("/git")
     public String Git(){
-        return "Hello Git! V0.1";
+        return "Hello Git! V0.1 --branch vlinz";
     }
 
     public static void main(String[] args) {
