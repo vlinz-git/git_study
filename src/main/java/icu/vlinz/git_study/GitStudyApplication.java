@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class GitStudyApplication {
     @RequestMapping("/git")
     public String Git(){
-        return "Hello Git! V0.8 -master update  --merge合并分支";
+        return "Hello Git! + github!";
     }
 
     public static void main(String[] args) {
